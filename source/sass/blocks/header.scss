@@ -1,0 +1,73 @@
+.header {
+  padding: 20px 0;
+  background-color: $color-eastern-blue;
+}
+
+.header__wrapper {
+  display: flex;
+}
+
+.header__content {
+  width: 100%;
+}
+
+.header__image {
+  object-fit: cover;
+}
+
+.header__title {
+  background-color: $color-dark-cerulean;
+  width: 100%;
+  padding: 7px 0;
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    background-image: url('../img/svg/poligon.svg');
+    top: 0;
+    left: -56px;
+  }
+}
+
+.header__title h1 {
+  font-size: 2em;
+  line-height: normal;
+  margin: 0;
+  text-align: center;
+  color: $color-light-sea-green;
+}
+
+.header__info {
+  padding-left: 20px;
+}
+
+.header__info h2 {
+  font-weight: 400;
+  line-height: normal;
+  color: $color-dark-cerulean;
+  margin: 10px 0 0;
+  padding: 0;
+}
+
+.header__info h3 {
+  font-size: 18px;
+  line-height: normal;
+  color: $color-dark-cerulean;
+  margin: 5px 0 0 20px;
+  padding: 0;
+}
+
+.header__info-list {
+  margin: 0;
+  padding: 0 0 0 40px;
+  list-style: circle;
+}
+
+.header__info-item {
+  font-size: 18px;
+  line-height: normal;
+  color: $color-dark-cerulean;
+}
