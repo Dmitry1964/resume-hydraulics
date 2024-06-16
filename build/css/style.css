@@ -837,11 +837,10 @@ button,
   display: grid;
   -ms-grid-columns: 1fr;
   grid-template-columns: 1fr;
-  -ms-grid-rows: auto 1ft auto;
-  grid-template-rows: auto 1ft auto;
+  -ms-grid-rows: auto 1fr auto;
+  grid-template-rows: auto 1fr auto;
   background-color: #0d8fa9;
   height: 100%;
-  padding-bottom: 20px;
 }
 
 .info h2 {
@@ -939,6 +938,7 @@ button,
   background: linear-gradient(180deg, #29b6bd 0%, #bbf5f8 100%);
   padding: 15px 15px;
   border-radius: 15px;
+  margin-bottom: 30px;
 }
 
 .about__info h2 {
@@ -1003,8 +1003,35 @@ button,
   margin-bottom: 5px;
 }
 
+.about__example {
+  width: 60%;
+  background: -webkit-gradient(linear, left top, left bottom, from(#29b6bd), to(#bbf5f8));
+  background: linear-gradient(180deg, #29b6bd 0%, #bbf5f8 100%);
+  padding: 15px 15px;
+  border-radius: 15px;
+}
+
+.about__example-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about__example-item {
+  position: relative;
+  width: 230px;
+  height: 200px;
+}
+
+.about__example-item img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
 .main-page {
   overflow: hidden;
+  padding-bottom: 20px;
 }
 
 .main-page__wrapper {

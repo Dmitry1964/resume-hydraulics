@@ -10,6 +10,7 @@
   background: linear-gradient(180deg, #29b6bd 0%, #bbf5f8 100%);
   padding: 15px 15px;
   border-radius: 15px;
+  margin-bottom: 30px;
 
   & h2 {
     font-size: 24px;
@@ -68,4 +69,27 @@
   line-height: 120%;
   color: $color-dark-cerulean;
   margin-bottom: 5px;
+}
+
+.about__example {
+  width: 60%;
+  background: linear-gradient(180deg, #29b6bd 0%, #bbf5f8 100%);
+  padding: 15px 15px;
+  border-radius: 15px;
+}
+
+.about__example-list {
+  display: flex;
+}
+
+.about__example-item {
+  position: relative;
+  width: 230px;
+  height: 200px;
+}
+
+.about__example-item img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
