@@ -1,0 +1,8 @@
+.main-page {
+  overflow: hidden;
+}
+
+.main-page__wrapper {
+  display: grid;
+  grid-template-columns: 25% 1fr;
+}
