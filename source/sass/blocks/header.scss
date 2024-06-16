@@ -22,11 +22,11 @@
   position: relative;
 
   &::before {
-    content: '';
+    content: "";
     position: absolute;
     width: 56px;
     height: 56px;
-    background-image: url('../img/svg/poligon.svg');
+    background-image: url("../img/svg/poligon.svg");
     top: 0;
     left: -56px;
   }
